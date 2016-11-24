@@ -1,0 +1,9 @@
+{
+    "activate": {
+        "title": "Aktibazioa",
+        "messages": {
+            "success": "<strong>Zure kontua aktibatua izan da.</strong> Mesedez, <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">hasi saioa</a>.",
+            "error": "<strong>Ezin izan da zure kontua aktibatu.</strong> Mesedez, erabili inskripzio eskaera orria izena emateko."
+        }
+    }
+}

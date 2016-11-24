@@ -1,0 +1,126 @@
+{
+    "global": {
+        "title": "<%= capitalizedBaseName %>",
+        "browsehappy": "Erabiltzen ari zaren nabigatzailea <strong>ez dago eguneratua</strong>. Mesedez, <a href=\"http://browsehappy.com/?locale=en\">eguneratu ezazu</a> esperientzia hobetzeko.",
+        "menu": {
+            "home": "Hasiera",
+            "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+            "entities": {
+                "main": "Entitateak",
+                "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+            },
+            "account": {
+                "main": "Kontua",
+                "settings": "Ezarpenak",
+                "password": "Pasahitza",
+                "sessions": "Saioak",
+                "login": "Saioa hasi",
+                "logout": "Saioa amaitu",
+                "register": "Kontua sortu"
+            },
+            "admin": {
+                "main": "Administrazioa",
+                <%_ if (applicationType == 'gateway') { _%>
+                "gateway": "Gateway",
+                <%_ } _%>
+                "userManagement": "Erabiltzaileen kudeaketa",
+                "tracker": "Erabiltzaileen erregistroa",
+                "metrics": "Neurketak",
+                "health": "Osasuna",
+                "configuration": "Ezarpenak",
+                "logs": "Log-ak",
+                "audits": "Auditoretzak",
+                "apidocs": "API-a",
+                "database": "Datu basea",
+                "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+            },
+            "language": "Hizkuntza"
+        },
+        "form": {
+            "username": "Erabiltzailea",
+            "username.placeholder": "Erabiltzailearen izena",
+            "newpassword": "Pasahitz berria",
+            "newpassword.placeholder": "Pasahitz berria",
+            "confirmpassword": "Pasahitz berriaren egiaztapena",
+            "confirmpassword.placeholder": "Pasahitz berriaren egiaztapena",
+            "email": "Posta elektronikoa",
+            "email.placeholder": "Zure emaila"
+        },
+        "messages": {
+            "info": {
+                "authenticated": "<a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">Saioa hasi</a> nahi baduzu, ondorengo kontu lehenetsiekin egin dezakezu:<br/>- Administratzailea (erabiltzailea=\"admin\" eta pasahitza=\"admin\") <br/>- Erabiltzailea (erabiltzailea=\"user\" eta pasahitza=\"user\").",
+                "register": "Oraindik ez duzu konturik? <a class=\"alert-link\" href=\"\" ng-click=\"vm.register()\">Kontua sortu</a>"
+            },
+            "error": {
+                "dontmatch" : "Pasahitza eta pasahitzaren egiaztapena ez dira berdinak!"
+            },
+            "validate": {
+                "newpassword": {
+                    "required": "Pasahitza sartu behar duzu.",
+                    "minlength": "Pasahitzak gutxienez 5 karaktere eduki behar ditu",
+                    "maxlength": "Pasahitzak ezin ditu 50 karaktere baina gehiago eduki",
+                    "strength": "Pasahitzaren segurtasun maila:"
+                },
+                "confirmpassword": {
+                    "required": "Pasahitza egiaztatu behar duzu.",
+                    "minlength": "Egiaztapen pasahitzak gutxienez 5 karaktere eduki behar ditu",
+                    "maxlength": "Egiaztapen pasahitzak ezin ditu 50 karaktere baina gehiago eduki"
+                },
+                "email": {
+                    "required": "Posta elektroniko bat behar da.",
+                    "invalid": "Posta elektronikoa ez da ez da zuzena.",
+                    "minlength": "Pasahitzak gutxienez 5 karaktere eduki behar ditu",
+                    "maxlength": "Pasahitzak ezin ditu 50 karaktere baina gehiago eduki"
+                }
+            }
+        },
+        "field": {
+            "id" : "ID"
+        },
+        "ribbon": {
+            "dev":"Development"
+        }
+    },
+    "entity": {
+        "action": {
+            "addblob": "Fitxategia gehitu",
+            "addimage": "Irudia gehitu",
+            "back": "Itzuli",
+            "cancel": "Ezeztatu",
+            "delete": "Ezabatu",
+            "edit": "Aldatu",
+            "open": "Ireki",
+            "save": "Gorde",
+            "view": "Ikusi"
+        },
+        "detail": {
+            "field": "Eremua",
+            "value": "Balioa"
+        },
+        "delete": {
+            "title": "Konfirmatu ezabatu nahi duzula"
+        },
+        "validation": {
+            "required": "Eremu hau derrigorrezkoa da.",
+            "minlength": "Eremu honek gutxienez {{min}} karaktere izan behar ditu.",
+            "maxlength": "Eremu honek ezin ditu {{max}} karaktere baina gehiago eduki.",
+            "min": "Eremu hau {{min}} baina handiagoa izan behar da.",
+            "max": "Eremu hau ezin da {{max}} baina handiagoa izan.",
+            "minbytes": "Eremu honek {{min}} byte eduki behar ditu gutxienez.",
+            "maxbytes": "Eremu honek ezin ditu {{max}} byte baina gehiago eduki.",
+            "pattern": "Eremu honek {{pattern}} eredua jarraitu behar du.",
+            "number": "Eremu hau zenbaki bat izan behar da.",
+            "datetimelocal": "Eremu hau data eta ordua izan behar da."
+        }
+    },
+    "error": {
+        "server.not.reachable": "Ezin da zerbitzaria atzeman",
+        "url.not.found": "Not found",
+        "NotNull": "{{fieldName}} eremua ezin da hutsik utzi!",
+        "Size": "{{fieldName}} eremuak ez ditu minimo eta maximo baldintzak betetzen!",
+        "userexists": "Erabiltzailea dagoeneko existitzen da!",
+        "emailexists": "Posta elektronikoa existitzen da!",
+        "idexists": "{{entityName}} berri batek ezin du aurretik ID bat eduki"
+    },
+    "footer": "orri oina"
+}
