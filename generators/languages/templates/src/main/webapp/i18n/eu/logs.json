@@ -1,0 +1,11 @@
+{
+    "logs": {
+        "title": "Log-ak",
+        "nbloggers": "{{ total }} erregistro daude.",
+        "filter": "Iragazkia",
+        "table": {
+            "name": "Izena",
+            "level": "Maila"
+        }
+    }
+}

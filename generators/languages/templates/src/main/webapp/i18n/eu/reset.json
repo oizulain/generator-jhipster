@@ -1,0 +1,30 @@
+{
+    "reset": {
+        "request": {
+            "title": "Pasahitz berrezarpena",
+            "form": {
+                "button": "Pasahitza berrezarri"
+            },
+            "messages": {
+                "info": "Sartu ezazu izen emateko erabili zenuen posta elektronikoa",
+                "success": "Begiratu zure posta elektronikoa pasahitza berrezartzen jarraitzeko.",
+                "notfound": "<strong>Sartu duzun posta elektronikoa ez da aurkitu!</strong> Mesedez, egiaztatu eta sartu berriro"
+
+            }
+
+        },
+        "finish" : {
+            "title": "Pasahitza berrezarri",
+            "form": {
+                "button": "Pasahitz berria egiaztatu"
+            },
+            "messages": {
+                "info": "Pasahitz berri bat aukeratu",
+                "success": "<strong>Pasahitza berrezarri da.</strong> Mesedez, <a class=\"alert-link\" href=\"\" ng-click=\"vm.login()\">hasi saioa</a>.",
+                "keymissing": "Berrabiaratze gakoa falta da.",
+                "error": "Ezin izan da pasahitza berrezarri. Gogoratu pasahitz berrezartze eskaera 24 ordutarako bakarrik dela baliagarria."
+            }
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "configuration": {
+        "title": "Ezarpena",
+        "filter": "Iragazkia (aurrizkigatik)",
+        "table": {
+            "prefix": "Aurrizkia",
+            "properties": "Ezarpenak"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "gateway": {
+        "title": "Gateway",
+        "routes": {
+            "title": "Ibilbideak",
+            "url": "URL",
+            "service": "zerbitzua",
+            "servers": "Zerbitzariak eskuragarri",
+            "error": "Kontuz: ez dago zerbitzaririk eskuragarri!"
+        },
+        "refresh": {
+            "button": "Freskatu"
+        }
+    }
+}

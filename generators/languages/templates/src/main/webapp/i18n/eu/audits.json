@@ -1,0 +1,27 @@
+{
+    "audits": {
+        "title": "Auditoretza",
+        "filter": {
+            "title": "Dataren arabera filtratu",
+            "from": "hasiera",
+            "to": "amaiera",
+            "button": {
+                "weeks": "Asteak",
+                "today": "gaur",
+                "clear": "garbitu",
+                "close": "itxi"
+            }
+        },
+        "table": {
+            "header": {
+                "principal": "Erabiltzailea",
+                "date": "Data",
+                "status": "Egoera",
+                "data": "Aparteko datuak"
+            },
+            "data": {
+                "remoteAddress": "Urrutiko helbidea:"
+            }
+        }
+    }
+}

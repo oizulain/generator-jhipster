@@ -1,0 +1,19 @@
+{
+    "login": {
+        "title": "Saioa hasi",
+        "form": {
+            "password": "Pasahitza",
+            "password.placeholder": "Zure pasahitza",
+            "rememberme": "Automatikoki hasi saioa",
+            "button": "Hasi saioa"
+        },
+        "messages": {
+            "error": {
+                "authentication": "<strong>Saio hasieran akats bat egon da!</strong> Mesedez, baieztatu datuak eta saiatu berriz."
+            }
+        },
+        "password" : {
+            "forgot": "Pasahitza ahaztu duzu?"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "register": {
+        "title": "Izena eman",
+        "form": {
+            "button": "Kontua sortu"
+        },
+        "messages": {
+            "validate": {
+                "login": {
+                    "required": "Erabiltzaile izena derrigorrezkoa da.",
+                    "minlength": "Erabiltzaile izenak gutxienez karaktere bat eduki behar du.",
+                    "maxlength": "Erabiltzaile izenak ezin ditu 50 karaktere baina gehiago eduki.",
+                    "pattern": "Erabiltzaile izenak letra xeheak eta zenbakiak bakarrik eduki ditzake."
+                }
+            },
+            "success": "<strong>Izena eman da!</strong> Mesedez, begiratu zure posta elektronikoa konfirmatzeko.",
+            "error": {
+                "fail": "<strong>Izen emateak huts egin du!</strong> Mesedez, saiatu zaitez beranduago.",
+                "userexists": "<strong>Erabiltzaile izena ez dago erabilgarri!</strong> Mesedez, aukeratu beste bat.",
+                "emailexists": "<strong>Posta elektronikoa ez dago erabilgarri!</strong> Mesedez, aukeratu beste bat."
+            }
+        }
+    }
+}
