@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "title": "[<b>{{username}}</b>] erabiltzaile ezarpenak",
+        "form": {
+            "firstname": "Izena",
+            "firstname.placeholder": "Zure izena",
+            "lastname": "Abizenak",
+            "lastname.placeholder": "Zure abizenak",
+            "language": "Hizkuntza",
+            "button": "Gorde"
+        },
+        "messages": {
+            "error": {
+                "fail": "<strong>Errore bat gertatu da!</strong> Ezin izan dira ezarpenak gorde.",
+                "emailexists": "<strong>Posta elektronikoa existizen da!</strong> Mesedez, aukeratu beste bat."
+            },
+            "success": "<strong>Ezarpenak gorde dira!</strong>",
+            "validate": {
+                "firstname": {
+                    "required": "Izena derrigorrezkoa da.",
+                    "minlength": "Izenak gutxienez karaktere bat eduki behar du",
+                    "maxlength": "Izenak ezin ditu 50 karaktere baino gehiago eduki"
+                },
+                "lastname": {
+                    "required": "Abizenak derrigorrezkoak dira.",
+                    "minlength": "Abizenak gutxienez karaktere bat eduki behar du",
+                    "maxlength": "Abizenek ezin dituzte 50 karaktere baino gehiago eduki"
+                }
+            }
+        }
+    }
+}

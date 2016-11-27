@@ -1,0 +1,94 @@
+{
+    "metrics": {
+        "title": "Aplikazio metrikak",
+        "refresh.button": "Freskatu",
+        "updating": "Eguneratzen...",
+        "jvm": {
+            "title": "JVM-aren metrikak",
+            "memory": {
+                "title": "Memoria",
+                "total": "Memoria totala",
+                "heap": "Heap Memoria",
+                "nonheap": "Heap ez den Memoria"
+            },
+            "threads": {
+                "title": "Hariak",
+                "all": "Dena",
+                "runnable": "Exekutagarriak",
+                "timedwaiting": "'Timed waiting'",
+                "waiting": "Itxoiten",
+                "blocked": "Bloketatuak",
+                "dump": {
+                    "title": "'Threads dump'",
+                    "id": "Id: ",
+                    "blockedtime": "Denbora blokeatuta",
+                    "blockedcount": "Blokeatze zenbatzailea",
+                    "waitedtime": "Denbora itxaroten",
+                    "waitedcount": "Itxarote zenbatzailea",
+                    "lockname": "'Lock' izena",
+                    "stacktrace": "Stacktrace",
+                    "show": "Erakutsi",
+                    "hide": "Ezkutatu"
+                }
+            },
+            "gc": {
+                "title": "Zabor bildumak",
+                "marksweepcount": "'Mark Sweep' zenbatzailea",
+                "marksweeptime": "'Mark Sweep' denbora",
+                "scavengecount": "'Scavenge' zenbatzailea",
+                "scavengetime": "'Scavenge' denbora"
+            },
+            "http": {
+                "title": "HTTP eskaerak (gertaerak segunduko)",
+                "active": "Eskaerak aktibo:",
+                "total": "Eskaerak guztira:",
+                "table": {
+                    "code": "Kodea",
+                    "count": "Kontaketa",
+                    "mean": "Mean",
+                    "average": "Batazbestekoa"
+                },
+                "code": {
+                    "ok": "Ok",
+                    "notfound": "Ez da aurkitu",
+                    "servererror": "Zerbitzari errorea"
+                }
+            }
+        },
+        "servicesstats": {
+            "title": "Zerbitzuen estatistikak (denbora milisegundutan)",
+            "table": {
+                "name": "Zerbitzuaren izena",
+                "count": "Zenbatzailea",
+                "mean": "Batazbestekoa",
+                "min": "Min",
+                "max": "Max",
+                "p50": "p50",
+                "p75": "p75",
+                "p95": "p95",
+                "p99": "p99"
+            }
+        },
+        "ehcache": {
+            "title": "Ehcache estatistikak",
+            "cachename": "'Cache' izena",
+            "objects": "Objektuak",
+            "hits": "Asmatzeak",
+            "misses": "Akatsak",
+            "evictioncount": "Irtenarazte zenbatzailea"
+        },
+        "datasource": {
+            "usage": "Erabilpena",
+            "title": "Datu iturrien estatistikak (denbora milisegundutan)",
+            "name": "Pool erabilpena",
+            "count": "Kontaketa",
+            "mean": "Batazbestekoa",
+            "min": "Min",
+            "max": "Max",
+            "p50": "p50",
+            "p75": "p75",
+            "p95": "p95",
+            "p99": "p99"
+        }
+    }
+}

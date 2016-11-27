@@ -1,0 +1,15 @@
+{
+    "sessions": {
+        "title": "[<b>{{username}}en</b>] hasitako saioak",
+        "table": {
+            "ipaddress": "IP helbidea",
+            "useragent": "Erabiltzaile agentea",
+            "date": "Data",
+            "button": "Baliogabetu"
+        },
+        "messages": {
+            "success": "<strong>Saioa baliogabetua!</strong>",
+            "error": "<strong>Errore bat gertatu da!</strong> Ezin da saioa baliogabetu."
+        }
+    }
+}
